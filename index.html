@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment01</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+  </head>
+
+  <body>
+    <header> <h1 class="h1">(middle)earthBNB</h1>
+    <nav>
+    <p><a href="#section01">home</a></p>
+    <p><a href="#">the shire</a></p>
+    <p><a href="#section02">availability</a></p>
+    <p><a href="#section03">prices</a></p>
+    </nav>
+    <div class="musicplayer">
+        <audio controls loop src="Concerning Hobbits.mp3" type="audio/mpeg" id="music" allow="autoplay">Music Player</audio></div>
+</header>
+    <!-- the main website structure -look at okso wireframe for reference. screenshot provided -->
+    <!-- not every navbar link takes you to a location on the page. NAVRBAR LINKS = home (back to top?) hobbit hole number 3, the shire (not linked), calendar, prices
+    https://coolors.co/efd0ca-c1bcac-979b8d-5c7457-214e34 the colour palette to use-->
+
+    <!--section one--> 
+  <section id="section01" class="section01">
+  <div class="backgroundcolour01">
+<div class="textintro">
+<h2>HOBBIT HOLE NUMBER 3</h2>
+<br></br>
+    Don't let the fact that it's named number 3 stop you from discovering the hobbit hole that's number 1 in our hearts! 
+    <br></br>
+
+    <a href="#" class="findout">Find out more about this charming location! </a>
+</div></div>
+    </section>
+
+    <!--section 2
+    stretch goals here = a calendar (not needed to be interactive) and maybe a function that displays the name of the property, for example "move quickly! $thisproperty is usually booked" where $ prints hobbit hole 3-->
+    <section id="section02" class="section02">
+    <h2> CHECK AVAILABILITY </h2>
+    <br></br>
+    <p>Move quickly! This property is usually booked up!</p>
+
+<div class="theCalendar">
+<div class="calendarTitle">MAY 2025</div>
+<ul class="weekdays">
+    <li>Mo</li>
+    <li>Tu</li>
+    <li>We</li>
+    <li>Th</li>
+    <li>Fr</li>
+    <li>Sa</li>
+    <li>Su</li>
+</ul>
+ <!--there MUST be a way to wrangle all the dates with flex without splitting them up into groups of 7-->
+<ul class="dates">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+ <li>8</li>
+    <li>9</li>
+    <li>10</li>
+    <li>11</li>
+    <li>12</li>
+    <li>13</li>
+    <li>14</li>
+ <li>15</li>
+    <li>16</li>
+    <li>17</li>
+    <li>18</li>
+    <li>19</li>
+    <li>20</li>
+    <li>21</li>
+  <li>22</li>
+    <li>23</li>
+    <li>24</li>
+    <li>25</li>
+    <li>26</li>
+    <li>27</li>
+ <li>28</li>
+    <li>29</li>
+    <li>30</li>
+    <li>31</li>
+</ul>
+</div>
+</div>
+
+
+<br></br>
+    <button class="bookNow">Book now</button>
+</section>
+
+    <!--section 3 -->
+    <section id="section03" class="section03">
+        <div class="backgroundcolour02">
+
+<div class="pricestext">
+
+    <h2><p>WONDERING ABOUT OUR PRICES?</p></h2>
+    <br></br>
+    <button class="readMore">Read more</button>
+    <br></br>
+<p class="subheading">PLEASE NOTE: we no longer accept Middle Earth currencies</p>
+<br></br>
+    </section>
+<div class="backtoTOP"><button id="backtoTop" class="backtotop" onclick="backTop()">↑</button></div>
+    </div></div>
+    <footer><a href="https://www.youtube.com"><img src="https://cdn-icons-png.flaticon.com/128/220/220353.png" alt="youtube logo" class="footerlogo""></a>
+    
+        <a href="https://techeducators.co.uk"><img src="https://cdn-icons-png.flaticon.com/512/471/471658.png" alt="star logo" class="footerlogo"</a>
+  </body>
+</html>
